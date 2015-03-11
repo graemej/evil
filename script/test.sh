@@ -1,6 +1,8 @@
 #!/bin/bash
-set -e
+set -ex
 
 echo '+++ do the thing'
 sleep 10
-echo '--- do the thing'
+
+echo '+++ finish'
+echo 'and we are done'
