@@ -2,7 +2,7 @@
 set -ex
 
 echo '+++ do the thing'
-sleep 10
+docker run -i -t ubuntu:trusty /ls
 
 echo '+++ finish'
 echo 'and we are done'
